@@ -8,7 +8,7 @@ from baidu_ai import get_commodity_data
 from question_dict import question_dict
 from wxpy import *
 import time
-
+import MQTT
 
 correct_info = {
     '购方名称': '甘肃省水利水电勘测设计研究院',
